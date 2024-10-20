@@ -1,0 +1,155 @@
+@media screen and (max-width :1100px) {
+    .main-bg .navbar {
+        max-width: 100vw;
+    }
+
+    .main-bg {
+        background-size: cover;
+
+    }
+
+}
+
+@media screen and (max-width :950px) {
+    .main-bg .navbar .logo img {
+        width: 90px;
+    }
+
+    .main-bg {
+        background-size: 125%;
+        height: 512px;
+        background-position-y: bottom;
+    }
+
+    main h1 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    main span {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    main {
+        min-height: 270px;
+        top: 78px;
+    }
+
+    .main-bg .navbar .btns {
+        column-gap: 10px;
+    }
+
+    section {
+        min-height: 670px;
+        padding: 80px 0;
+        width: 100vw;
+        box-sizing: border-box;
+    }
+
+    section .center {
+        width: auto;
+        flex-direction: column;
+    }
+
+    section .center div {
+        width: auto;
+        text-align: center;
+    }
+
+    section .info h1 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    section .info span {
+        font-size: 18px;
+    }
+
+    .second .str-thing {
+        width: auto;
+    }
+
+    .second .str-thing div:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        text-align: start;
+        width: 260px;
+        margin: 0 10px;
+    }
+
+    .second .str-thing img {
+        max-height: 4rem;
+    }
+
+    .second .center,
+    .fourth .center {
+        flex-direction: column;
+
+    }
+
+    .faq {
+        padding: 72px 0;
+
+    }
+
+    .faq h2 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .question {
+        font-size: 18px;
+        width: 90vw;
+        padding: 20px;
+    }
+
+    .question span svg {
+        height: 24px;
+        width: 24px;
+    }
+
+    footer {
+        padding: 40px;
+    }
+
+    footer>div {
+        margin: 0;
+    }
+
+    .links-container ul {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media screen and (max-width:450px) {
+    body{
+        width: 100vw;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+    body *{
+        width: auto;
+    }
+}
+
+@media screen and (max-width:350px) {
+    body{
+        width: 100vw;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    header *{
+        font-size: 10px;
+    }
+    body *{
+        width: auto;
+    }
+}
